@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <title>Hello, world!</title>
+  </head>
+  <body style="background-color:white;">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  
+    <!-- Banner titulo -->
+    <div>
+        <nav class="navbar navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">
+              <img src="/docs/4.4/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+              REGISTRO DE CAMIONES 
+            </a>
+          </nav>
+    </div>
+   
+    <div>
+       <br>
+    </div>
+
+    <!-- Tabla de captura de datos -->
+    <div class= "container" style="border-radius: 10px;  border-width:10px; background-color:white;">
+      <table class="table table-borderless">
+        <thead>
+          <tr>
+            <th scope="col">
+              <span class="input-group-text" id="addon-wrapping">Matricula</span>
+              <input type="text" class="form-control" placeholder="Matricula" aria-label="Matricula"
+                aria-describedby="addon-wrapping">
+            </th>
+            <th scope="col">
+              <span class="input-group-text" id="addon-wrapping">Modelo</span>
+              <input type="text" class="form-control" placeholder="Modelo" aria-label="Modelo"
+                aria-describedby="addon-wrapping">
+            </th>
+            <th scope="col">
+              <span class="input-group-text" id="addon-wrapping">Color</span>
+              <input type="text" class="form-control" placeholder="Color" aria-label="Color"
+                aria-describedby="addon-wrapping">
+            </th>
+            <th scope="col">
+              <span class="input-group-text" id="addon-wrapping">Status</span>
+              <button type="button" class="btn btn-block btn-primary btn-primary" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Action
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+              </div>
+            </th>
+    
+            <th>
+                <button  type="button" class="btn btn-block btn-primary btn-primary" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Agregar
+              </button>
+            </th>
+          </tr>
+        </thead>
+      </table>
+    </div>
+   
+    <!-- DataTable para mostrar camiones -->
+    <div class= "container" style="border-radius: 10px;  border-width:10px; background-color:	#353942;">
+      <table class="table table-striped table-dark" >
+        <thead>
+          <tr>
+            <th scope="col">Matricula</th>
+            <th scope="col">Modelo</th>
+            <th scope="col">Color</th>
+            <th scope="col">estatus</th>
+          </tr>
+          <tr>
+              <th scope="row">1</th>
+              <td>Mark</td>
+              <td>Otto</td>
+              <td>@mdo</td>
+              <td>              
+                <a href="C:\Users\Diego Ramirez\Desktop\Pantallas Zarate\HTML\Edit.html" class="btn btn-primary btn-primary"><span class="glyphicon glyphicon-trash"></span>Editar</a>
+                <a href="#" class="btn btn-primary btn-primary"><span class="glyphicon glyphicon-trash"></span>Eliminar</a>
+              </td>
+            </tr>
+        </thead>
+      </table>
+    </div>
+   
+  </body>    
+ </html>
